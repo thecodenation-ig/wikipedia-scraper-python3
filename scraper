@@ -1,0 +1,9 @@
+#importing module
+import wikipedia
+
+def scrape():
+  topic = input("Topic: ")
+  result = wikipedia.summary(topic, sentences = 2)
+  print(result)
+  
+scrape()
